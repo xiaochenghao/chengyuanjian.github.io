@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 又一次变更
-categories:休闲日志
-tags:主题 皮肤
 description: 人，最难超越的，不是别人，是自己。PIZn 的博客又一次更新了，换到「掌心」这里。
 ---
 
