@@ -18,6 +18,8 @@ nav:
     url: /index.html
   - text: Archives
     url: /archives.html
+  - text: Categories
+    url: /categories.html
   - text: Resume
     url: /resume.html
   - text: Source
