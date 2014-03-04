@@ -8,8 +8,4 @@ category: Jekyll
 ##为文章定义分类
 
 首先要确定文章属于哪个分类。这个配置可以设置在文章的头信息中，使用category或者categories确定，如文章属于“test”类别：
- ---
- layout: MyTemplate
- title: Category Sample
- category: test
- ---
+
