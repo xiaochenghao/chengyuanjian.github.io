@@ -1,13 +1,9 @@
 ---
-layout: blog
+layout: post
 title: LVS - Nginx - NodeJS - MongoDB - Cluster Setup on RackSpace
 description: LVS - Nginx - NodeJS - MongoDB - Configuring a high availability scalable server cluster on RackSpace.
 category: Jekyll
 ---
-
-## {{ page.title }}
-
-__20 Jan 2011 - Osaka, Japan__
 
 ## Introduction
 
