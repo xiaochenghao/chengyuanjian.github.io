@@ -20,6 +20,8 @@ nav:
     url: /archives.html
   - text: Categories
     url: /categories.html
+  - text: Resume
+    url: /personal/2014/03/05/resume.html
   - text: Source
     url: https://github.com/ChengYuanjian/chengyuanjian.github.io
 
