@@ -9,8 +9,9 @@ keywords: ChengYuanjian, CYJ, C.Y.J, GitHub, Archives, mac, css, html, javascrip
     <div class="violet-title">
         <h3 class="violet-title-item">Category</h3>
     </div>
-
+<div class="violet-post">
 <ul class="article-year fn-clear">
+<div class="main-article-contant">
 {% for category in site.categories %}
 <h5>{{ category | first }}({{ category | last | size }})</h5>
 <ul class="arc-list">
@@ -20,6 +21,8 @@ keywords: ChengYuanjian, CYJ, C.Y.J, GitHub, Archives, mac, css, html, javascrip
 </ul>
 {% endfor %}
 </ul>
+</div>
+</div>
 </article>
 </section>
 
