@@ -4,9 +4,13 @@ title: Categories
 description:
 keywords: ChengYuanjian, CYJ, C.Y.J, GitHub, Archives, mac, css, html, javascript, violet, Jekyll, plugins, wordpress
 ---
+<section class="main" id="violet-main">
+<article class="main-article main-article-page">
+    <div class="violet-title">
+        <h3 class="violet-title-item">Category</h3>
+    </div>
 
-<h4>Category</h4>
-<ul>
+<ul class="article-year fn-clear">
 {% for category in site.categories %}
 <h5>{{ category | first }}({{ category | last | size }})</h5>
 <ul class="arc-list">
@@ -16,4 +20,6 @@ keywords: ChengYuanjian, CYJ, C.Y.J, GitHub, Archives, mac, css, html, javascrip
 </ul>
 {% endfor %}
 </ul>
+</article>
+</section>
 
