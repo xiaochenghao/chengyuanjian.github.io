@@ -6,9 +6,9 @@ paginate: 8
 safe: false
 
 #站点基础配置
-title: Domain of C.Y.J
-subTitle: Welcome to C.Y.J's blog.
-description: This is my personal blog, which is built by Jekyll and the template is powered by zhanxin.info.
+title: Progressive OX
+subTitle: Google Fan|Java,Python,Android...
+description: This is my personal blog, which is built by Jekyll and the template is designed by zhanxin.info.
 url: http://chengyuanjian.github.io
 feed: /atom.xml
 
@@ -20,7 +20,7 @@ nav:
     url: /archives.html
   - text: Categories
     url: /categories.html
-  - text: Resume
+  - text: About me
     url: /personal/2014/03/05/resume.html
   - text: Source
     url: https://github.com/ChengYuanjian/chengyuanjian.github.io
@@ -45,10 +45,10 @@ follow:
     url: http://github.com/ChengYuanjian
   - class: fa-weibo
     url: http://weibo.com/_Aegwynn
-  - class: fa-renren
-    url: 
-  - class: fa-pinterest
-    url: 
+  #- class: fa-renren
+    #url: 
+  #- class: fa-pinterest
+    #url: 
   - class: fa-twitter
     url: http://www.twitter.com/_Aegwynn
   - class: fa-rss
