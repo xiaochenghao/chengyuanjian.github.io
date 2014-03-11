@@ -7,7 +7,7 @@ safe: false
 
 #站点基础配置
 title: Progressive OX
-subTitle: Google Fan|Java,Python,Android...
+subTitle: Google Fan;Java,Python,GWT,Flex,Android...
 description: This is my personal blog, which is built by Jekyll and the template is designed by zhanxin.info.
 url: http://chengyuanjian.github.io
 feed: /atom.xml
