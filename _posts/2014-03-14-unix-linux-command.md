@@ -51,6 +51,7 @@ category: Unix/Linux
 ###文件操作
 
 * `chmod octal file` - 更改file的权限
+
     4 - 读(r)
     2 - 写(w)
     1 - 执行(x)
