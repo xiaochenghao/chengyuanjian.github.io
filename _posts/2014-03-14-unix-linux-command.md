@@ -19,9 +19,11 @@ category: Unix/Linux
 * `rm -r dir` - 删除目录dir
 
 *加`-f`为强制删除*
+
 * `cp file1 file2` - 将file1复制到file2
 
 *加`-r`为复制目录；且目录不存在自动创建*
+
 * `mv file1 file2` - 将file1重命名或者移动到file2；如果file2是一个存在的目录则将file1移到到file2中
 * `ln -s file link` - 创建file的符号链接link
 * `touch file` - 创建文件file
@@ -58,7 +60,7 @@ category: Unix/Linux
 
 示例：
 >`chmod 777` - 为所有用户添加读、写、执行权限
->`chmod 755` - 为所有者添加rwx权限，为组合其他用户添加rx权限
+>`chmod 755` - 为所有者添加rwx权限，为组和其他用户添加rx权限
 
 * `chown usr:pwd file` - 更改文件file所有者为usr
 * `chown -R usr:pwd dir` - 更改目录dir所有者为usr
@@ -80,6 +82,7 @@ category: Unix/Linux
 >`ps aux | grep java` - 搜索匹配java的进程
 
 * `find` - 搜索文件
+
 *加`-name`为按文件名搜索*
 
 
