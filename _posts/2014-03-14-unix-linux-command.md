@@ -40,7 +40,6 @@ category: Unix/Linux
 * `ps` - 显示当前的活动进程
 
 *加`–au`为查看系统中，所有使用者的process*
-
 *加`–aux`查看系统中，包含系统内部，所有使用者的process*
 
 * `top` - 显示所有正在运行的进程
@@ -59,8 +58,8 @@ category: Unix/Linux
     1 - 执行(x)
 
 示例：
->`chmod 777` - 为所有用户添加读、写、执行权限
->`chmod 755` - 为所有者添加rwx权限，为组和其他用户添加rx权限
+    `chmod 777` - 为所有用户添加读、写、执行权限
+    `chmod 755` - 为所有者添加rwx权限，为组和其他用户添加rx权限
 
 * `chown usr:pwd file` - 更改文件file所有者为usr
 * `chown -R usr:pwd dir` - 更改目录dir所有者为usr
@@ -79,7 +78,7 @@ category: Unix/Linux
 * `command | grep pattern` - 搜索command命令输出中匹配pattern的内容
 
 示例：
->`ps aux | grep java` - 搜索匹配java的进程
+    `ps aux | grep java` - 搜索匹配java的进程
 
 * `find` - 搜索文件
 
@@ -126,7 +125,7 @@ category: Unix/Linux
 * `rcp [-r] source hostname:destination` - 拷贝文件或目录至远端工作站
 
 示例：
->`rcp -r dir1 doc:/home/user` - 将目录dir1，拷贝到工作站doc路径/home/user之目录下 
+    `rcp -r dir1 doc:/home/user` - 将目录dir1，拷贝到工作站doc路径/home/user之目录下 
 
 * `rcp [-r] hostname:source destination` - 自远端工作站，拷贝文件或目录
 
