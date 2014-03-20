@@ -48,4 +48,6 @@ JVM采用双亲委托模式:
 ##WebAppClassloader
 
 抛弃了双亲委托模式，这样可以让不同的WEB APP之间的类载入互不干扰（同一个tomcat下可以部署多个app，不同app之间是不可见的）。
-载入顺序为：WEB-INF/classes/*.class WEB-INF/lib/ *.jar
+载入顺序为：
+`WEB-INF/classes/*.class `
+`WEB-INF/lib/ *.jar`
