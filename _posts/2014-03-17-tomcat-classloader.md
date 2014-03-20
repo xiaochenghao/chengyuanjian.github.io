@@ -16,8 +16,8 @@ Classloader即类加载器，把Java class加载到JVM里运行，负责加载Ja
 Bootstrap Classloader即启动类加载器，是JVM实现的一部分（C++编写），在JVM启动的时候加载java核心API包括其他Classloader，ExtClassLoader加载java的扩展API，即lib/ext中的类，AppClassLoader加载用户CLASSPATH设置目录中的Class。
 
 JVM采用双亲委托模式:
-  if (parent != null) 
-    parent.loadClass(name, false); 
+  <code>if (parent != null) 
+    parent.loadClass(name, false); </code>
 
 ##Class.loadClass和Class.forName
 
@@ -48,4 +48,4 @@ JVM采用双亲委托模式:
 ##WebAppClassloader
 
 抛弃了双亲委托模式，这样可以让不同的WEB APP之间的类载入互不干扰（同一个tomcat下可以部署多个app，不同app之间是不可见的）。
-载入顺序为：WEB-INF/classes/*.class WEB-INF/lib/*.jar
+载入顺序为：WEB-INF/classes/*.class WEB-INF/lib/ *.jar
