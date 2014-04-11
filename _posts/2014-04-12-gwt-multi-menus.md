@@ -43,7 +43,6 @@ private List<AppHierarchy> findChildren(String parentId, List<AppHierarchy> all)
 ###根据数据源构造菜单
 
 <pre><code>
-
 public static final String			SEPARATOR	= "SEPARATOR";//分割线
 
 private void createMenu(AppHierarchy parent, List<AppHierarchy> all, MenuItem parentItem) {
