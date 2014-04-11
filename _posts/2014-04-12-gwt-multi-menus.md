@@ -8,9 +8,9 @@ category: GWT
 
 ###构造数据源
 
-本实例数据源采用List<AppHierarchy>的形式，XML、Json也可，只需要根据数据结构修改解析方法即可。
+本实例数据源采用List<AppHierarchy>的形式，XML、Json也可，只需要根据数据结构修改解析方法`findChildren`即可。
 
-*AppHierarchy.java
+*AppHierarchy.java*
 
 <pre><code>
 public class AppHierarchy implements java.io.Serializable {
@@ -71,6 +71,7 @@ private void createMenu(AppHierarchy parent, List<AppHierarchy> all, MenuItem pa
 			parentItem.setSubMenu(menu);
 		}
 	}
+	
 </code></pre>
 
 ###添加点击菜单触发事件处理
