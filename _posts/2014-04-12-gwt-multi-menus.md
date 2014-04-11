@@ -86,3 +86,18 @@ private ScheduledCommand createMenuCommand(final AppHierarchy parentApp, final A
 		};
 	}
 </code></pre>
+
+###调用方法生成菜单
+
+<pre><code>
+MenuBar mBar = new MenuBar(true);
+mBar.setAutoOpen(true);
+mBar.setAnimationEnabled(true);
+
+MenuItem rootItem = new MenuItem("Root", null);
+mBar.addItem(rootItem);
+List<AppHierarchy> datas;//此处数据源可自由构造
+createMenu(null, datas, rootItem);
+
+</code></pre>
+
