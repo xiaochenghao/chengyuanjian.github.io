@@ -20,7 +20,7 @@ public class AppHierarchy implements java.io.Serializable {
 	public String mAppId;//父菜单id
 	public String mParentAppId;//当前菜单id
 	
-	...setter,getter略过
+	//setter,getter略过
 	
 }
 {% endhighlight %}
