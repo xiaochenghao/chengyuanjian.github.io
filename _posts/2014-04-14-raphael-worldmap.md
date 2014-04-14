@@ -126,7 +126,7 @@ MouseEventListener createRightClickListener() {
 
 *鼠标悬停*
 
-<pre><code>
+{% highlight java %}
 //以中国为例
 countryShapes.get("CN").hover(new HoverListener() {
 			@Override
@@ -139,6 +139,6 @@ countryShapes.get("CN").hover(new HoverListener() {
 							
 			}
 		});
-</code></pre>
+{% endhighlight %}
 
 效果图，可参加[官方实例](http://raphaeljs.com/world/)。
