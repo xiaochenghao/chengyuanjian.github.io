@@ -24,7 +24,7 @@ Raphael JS库通过SVG/VML+JS实现跨浏览器的矢量图形实现方案，而
 
 ###使用JSNI构造解析类WorldMapData.java
 
-<pre><code>
+{% highlight java %}
 import com.google.gwt.core.client.JavaScriptObject;
 
 public class WorldMapData {
@@ -72,25 +72,25 @@ public class WorldMapData {
         return arr;
     }
 }
-</code></pre>
+{% endhighlight %}
 
 ###具体实现
 
 *构造底层容器*
 
-`LayoutPanel	container	= new LayoutPanel();`
+{% highlight java %}LayoutPanel	container	= new LayoutPanel();{% endhighlight %}
 
 *基于容器构造画布*
 
-`Paper paper = Raphael.paper(container);`
+{% highlight java %}Paper paper = Raphael.paper(container);{% endhighlight %}
 
 *构造HashMap保存所有国家*
 
-`HashMap<String, Shape>	countryShapes	= new HashMap<String, Shape>();`
+{% highlight java %}HashMap<String, Shape>	countryShapes	= new HashMap<String, Shape>();{% endhighlight %}
 
 *遍历国家路径数据，开始作图*
 
-<pre><code>
+{% highlight java %}
 Shape drawCountry(Paper paper, String countryId) {
 		String shapeData = WorldMapData.getCountryShape(countryId);
 		return paper.path(shapeData).setAttribute("stroke", COUNTRY_FILL).setAttribute("fill", COUNTRY_FILL)
@@ -101,13 +101,13 @@ for (String countryId : WorldMapData.getCountryIds()) {
 			countryShapes.put(countryId, drawCountry(paper, countryId));
 		}
 	
-</code></pre>
+{% endhighlight %}
 
 ###添加鼠标事件
 
 *右键单击*
 
-<pre><code>
+{% highlight java %}
 MouseEventListener createRightClickListener() {
 		return new MouseEventListener() {
 
@@ -122,7 +122,7 @@ MouseEventListener createRightClickListener() {
 	}
 	
 	countryShapes.get("CN").mouseDown(createRightClickListener());//以中国为例
-</code></pre>
+{% endhighlight %}
 
 *鼠标悬停*
 
