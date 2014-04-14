@@ -17,6 +17,7 @@ category: GWT
 ###引入Raphael4GWT
 
 `<inherits name="org.sgx.raphael4gwt.GRaphael4Gwt" />`
+
 `<script type="text/javascript" src="js/world.js"></script>`
 
 ###使用JSNI构造解析类WorldMapData.java
@@ -74,15 +75,19 @@ public class WorldMapData {
 ###具体实现
 
 *构造底层容器*
+
 `LayoutPanel	container	= new LayoutPanel();`
 
 *基于容器构造画布*
+
 `Paper paper = Raphael.paper(container);`
 
 *构造HashMap保存所有国家*
+
 `HashMap<String, Shape>	countryShapes	= new HashMap<String, Shape>();`
 
 *遍历国家路径数据，开始作图*
+
 <pre><code>
 Shape drawCountry(Paper paper, String countryId) {
 		String shapeData = WorldMapData.getCountryShape(countryId);
@@ -118,8 +123,9 @@ MouseEventListener createRightClickListener() {
 </code></pre>
 
 *鼠标悬停*
-以中国为例
+
 <pre><code>
+//以中国为例
 countryShapes.get("CN").hover(new HoverListener() {
 			@Override
 			public void hoverOut(NativeEvent e) {
