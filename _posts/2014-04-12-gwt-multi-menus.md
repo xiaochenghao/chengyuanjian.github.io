@@ -12,7 +12,7 @@ category: GWT
 
 *AppHierarchy.java*
 
-<pre><code>
+{% highlight java %}
 public class AppHierarchy implements java.io.Serializable {
 
 	public String mDisplayName;//菜单名
@@ -23,12 +23,12 @@ public class AppHierarchy implements java.io.Serializable {
 	...setter,getter略过
 	
 }
-</code></pre>
+{% endhighlight %}
 
 
 ###根据菜单id查询所有子菜单集合
 
-<pre><code>
+{% highlight java %}
 private List<AppHierarchy> findChildren(String parentId, List<AppHierarchy> all) {
 		List<AppHierarchy> result = new ArrayList<AppHierarchy>();
 		for (AppHierarchy a : all) {
@@ -38,12 +38,12 @@ private List<AppHierarchy> findChildren(String parentId, List<AppHierarchy> all)
 		}
 		return result;
 }
-</code></pre>
+{% endhighlight %}
 
 ###根据数据源构造菜单
 
-<pre><code>
-public static final String			SEPARATOR	= "SEPARATOR";//分割线
+{% highlight java %}
+public static final String SEPARATOR = "SEPARATOR";//分割线
 
 private void createMenu(AppHierarchy parent, List<AppHierarchy> all, MenuItem parentItem) {
 		String pid = "0";
@@ -71,11 +71,11 @@ private void createMenu(AppHierarchy parent, List<AppHierarchy> all, MenuItem pa
 		}
 	}
 	
-</code></pre>
+{% endhighlight %}
 
 ###添加点击菜单触发事件处理
 
-<pre><code>
+{% highlight java %}
 private ScheduledCommand createMenuCommand(final AppHierarchy parentApp, final AppHierarchy app) {
 		return new ScheduledCommand() {
 
@@ -85,11 +85,11 @@ private ScheduledCommand createMenuCommand(final AppHierarchy parentApp, final A
 			}
 		};
 	}
-</code></pre>
+{% endhighlight %}
 
 ###调用方法生成菜单
 
-<pre><code>
+{% highlight java %}
 MenuBar mBar = new MenuBar(true);
 mBar.setAutoOpen(true);
 mBar.setAnimationEnabled(true);
@@ -99,5 +99,5 @@ mBar.addItem(rootItem);
 List<AppHierarchy> datas;//此处数据源可自由构造
 createMenu(null, datas, rootItem);
 
-</code></pre>
+{% endhighlight %}
 
