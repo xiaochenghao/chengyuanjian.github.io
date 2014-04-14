@@ -6,6 +6,8 @@ keywords: GWT,Java,Raphael
 category: GWT
 ---
 
+Raphael JS库通过SVG/VML+JS实现跨浏览器的矢量图形实现方案，而Raphael4GWT是Raphael JS的基于GWT的实现方案。本文以世界地图为例进行演示。
+
 ###下载Raphael4GWT包
 
 [点击查看](http://code.google.com/p/raphael4gwt/downloads/list)下载列表，本例使用raphael4gwt-0.40.jar。
