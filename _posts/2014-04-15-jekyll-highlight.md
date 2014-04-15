@@ -86,25 +86,4 @@ category: Jekyll
 
 1.引入在线资源
 
-{% highlight html %}
-<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
-<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
-{% endhighlight %}
 
-2.下载至本地后引入
-
-下载地址：[点击](http://highlightjs.org/download/)
-
-{% highlight html %}
-<link rel="stylesheet" href="styles/default.css">
-<script src="highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-{% endhighlight %}
-
-####2.4.用法
-
-代码用使用标签`<pre><code></code></pre>`包含即可。
-
-####2.5.官方资源
-
-* [Highlight.js homepage](http://softwaremaniacs.org/soft/highlight/en/)
