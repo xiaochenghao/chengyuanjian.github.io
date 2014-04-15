@@ -39,9 +39,9 @@ category: Jekyll
 ####1.6.用法
 
 <pre><code>
-highlight language 
+{ % highlight language % }
    your code goes here  
-endhighlight 
+{ % endhighlight % }
 </code></pre>
 
 或者
