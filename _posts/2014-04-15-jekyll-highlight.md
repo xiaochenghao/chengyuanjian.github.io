@@ -22,6 +22,8 @@ category: Jekyll
 
 ####1.3.安装方式
 
-1.在线安装
+* `pip install Pygments`
 
-`pip install Pygments`
+* [点击下载](https://pypi.python.org/pypi/Pygments)安装包，
+
+`easy_install Pygments-1.6-py2.7.egg`
