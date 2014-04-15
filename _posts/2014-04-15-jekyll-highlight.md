@@ -40,3 +40,22 @@ category: Jekyll
 
 `pygments: true`
 
+####1.6.用法
+
+<pre><code>
+{% highlight language %}  
+   your code goes here  
+{% endhighlight %}
+</code></pre>
+
+或者
+<pre><code>
+```language
+   your code goes here  
+```
+</code></pre>
+
+
+用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
+
+
