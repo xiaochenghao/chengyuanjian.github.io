@@ -30,9 +30,9 @@ category: Jekyll
 
 ####1.5.引入pygments.css
 
-```html
+{% highlight html %}
 <link rel="stylesheet" href="/pygments.css">
-```
+{% endhighlight %}
 
 设置_config.yml中pygments=true
 
