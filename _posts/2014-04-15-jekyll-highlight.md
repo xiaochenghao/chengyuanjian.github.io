@@ -42,7 +42,7 @@ category: Jekyll
 
 ####1.6.用法
 
-语法高亮的代码片段要放在标签对 `{% highlight language %}` 和 `{% endhighlight %}` 之间，其中的 language 为多种语言高亮页面中的 Short names。
+
 
 <pre><code class='text'>
 
@@ -51,5 +51,67 @@ category: Jekyll
 
 
 所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
+
+
+
+或者
+<pre><code>
+```language
+   your code goes here  
+```
+</code></pre>
+
+
+用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
+
+####1.7.官方资源
+
+* [Pygments on github](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
+
+* [Pygments homepage](http://pygments.org/)
+
+* [Supported languages list](http://pygments.org/languages/)
+
+###2.Highlight.js
+
+####2.1.优点
+
+1.容易使用
+
+2.方便升级
+
+####2.2.缺点
+
+1.代码高亮风格不如pygments友好，目前新版本已经漂亮很多了
+
+2.需要自己组织代码格式
+
+####2.3.引入highlight.js
+
+1.引入在线资源
+
+{% highlight html %}
+<link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/default.min.css">
+<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+{% endhighlight %}
+
+2.下载至本地后引入
+
+下载地址：[点击](http://highlightjs.org/download/)
+
+{% highlight html %}
+<link rel="stylesheet" href="styles/default.css">
+<script src="highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{% endhighlight %}
+
+####2.4.用法
+
+代码用使用标签`<pre><code>``</code></pre>`包含即可。
+
+####2.5.官方资源
+
+* [Highlight.js homepage](http://softwaremaniacs.org/soft/highlight/en/)
+
 
 
