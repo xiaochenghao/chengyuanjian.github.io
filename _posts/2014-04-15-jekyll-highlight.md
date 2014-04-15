@@ -51,9 +51,6 @@ category: Jekyll
 ```
 </code></pre>
 
-所有的language列表可参见[这里](http://pygments.org/docs/lexers/)
-
-
 用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
 
 ####1.7.官方资源
