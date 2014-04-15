@@ -42,9 +42,12 @@ category: Jekyll
 
 ####1.6.用法
 
-语法高亮的代码片段要放在标签对 `{% highlight language %}` 和 `{% endhighlight %}` 之间，其中的 language 为多种语言高亮页面中的Short names。
+语法高亮的代码片段要放在标签对 `{%highlight language%}` 和 `{%endhighlight%}` 之间，其中的 language 为多种语言高亮页面中的Short names。
 
-
+<pre><code>{%highlight language%}  
+   your code goes here  
+{%endhighlight%}
+</code></pre>
 
 
 
