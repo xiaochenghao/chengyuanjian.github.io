@@ -27,3 +27,16 @@ category: Jekyll
 * [点击下载](https://pypi.python.org/pypi/Pygments)安装包，
 
 `easy_install Pygments-1.6-py2.7.egg`
+
+####1.4.生成pygments.css
+
+`pygmentize -S default -f html > pygments.css`
+
+####1.5.引入pygments.css
+
+`<link rel="stylesheet" href="/pygments.css">`
+
+设置_config.yml中pygments=true
+
+`pygments: true`
+
