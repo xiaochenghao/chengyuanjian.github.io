@@ -30,7 +30,9 @@ category: Jekyll
 
 ####1.5.引入pygments.css
 
-`<link rel="stylesheet" href="/pygments.css">`
+```html
+<link rel="stylesheet" href="/pygments.css">
+```
 
 设置_config.yml中pygments=true
 
