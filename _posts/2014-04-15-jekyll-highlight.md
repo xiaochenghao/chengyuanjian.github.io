@@ -42,7 +42,8 @@ category: Jekyll
 
 ####1.6.用法
 
-<pre><code>
+语法高亮的代码片段要放在标签对 `{% highlight language %}` 和 `{% endhighlight %}` 之间，其中的 language 为多种语言高亮页面中的Short names。
+<pre><code class='text'>
 {% highlight language %}  
    your code goes here  
 {% endhighlight %}
@@ -56,6 +57,6 @@ category: Jekyll
 </code></pre>
 
 
-用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
+所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
 
 
