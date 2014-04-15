@@ -10,15 +10,15 @@ category: Jekyll
 
 ###1.1.优点
 
-*支持超过100种以上的代码高亮
+1.支持超过100种以上的代码高亮
 
-*不用担心代码格式化的问题，直接拷贝即可
+2.不用担心代码格式化的问题，直接拷贝即可
 
 ###1.2.缺点
 
-*安装方式要难于highlight.js，前提要求已安装python
+1.安装方式要难于highlight.js，前提要求已安装python
 
-*有新的版本，需要手动重新生成pygments.css
+2.有新的版本，需要手动重新生成pygments.css
 
 ###1.3.安装方式
 
@@ -50,25 +50,25 @@ category: Jekyll
 
 ###1.7.官方资源
 
-*[Pygments on github](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
+* [Pygments on github](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
 
-*[Pygments homepage](http://pygments.org/)
+* [Pygments homepage](http://pygments.org/)
 
-*[Supported languages list](http://pygments.org/languages/)
+* [Supported languages list](http://pygments.org/languages/)
 
 ##2.Highlight.js
 
 ###2.1.优点
 
-*容易使用
+1.容易使用
 
-*方便升级
+2.方便升级
 
 ###2.2.缺点
 
-*代码高亮风格不如pygments友好，目前新版本已经漂亮很多了
+1.代码高亮风格不如pygments友好，目前新版本已经漂亮很多了
 
-*需要自己组织代码格式
+2.需要自己组织代码格式
 
 ###2.3.引入highlight.js
 
@@ -95,4 +95,4 @@ category: Jekyll
 
 ###2.5.官方资源
 
-*[Highlight.js homepage](http://softwaremaniacs.org/soft/highlight/en/)
+* [Highlight.js homepage](http://softwaremaniacs.org/soft/highlight/en/)
