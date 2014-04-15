@@ -43,9 +43,7 @@ category: Jekyll
 ####1.6.用法
 
 <pre><code class='text'>
-{% highlight language %}  
-   your code goes here  
-{% endhighlight %}
+
 </code></pre>
 
 
