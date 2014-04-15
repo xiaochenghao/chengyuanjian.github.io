@@ -23,3 +23,5 @@ category: Jekyll
 ####1.3.安装方式
 
 1.在线安装
+
+`pip install Pygments`
