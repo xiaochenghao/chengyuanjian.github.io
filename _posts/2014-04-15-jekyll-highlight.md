@@ -49,12 +49,7 @@ category: Jekyll
 {% endhighlight %}
 </code></pre>
 
-或者
-<pre><code>
-```language
-   your code goes here  
-```
-</code></pre>
+
 
 
 所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
