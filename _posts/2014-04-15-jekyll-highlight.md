@@ -21,9 +21,8 @@ category: Jekyll
 ####1.3.安装方式
 
 * `pip install Pygments`
-* [点击下载](https://pypi.python.org/pypi/Pygments)安装包，
-
-`easy_install Pygments-1.6-py2.7.egg`
+* [点击下载](https://pypi.python.org/pypi/Pygments)安装包
+* `easy_install Pygments-1.6-py2.7.egg`
 
 ####1.4.生成pygments.css
 
@@ -39,17 +38,11 @@ category: Jekyll
 
 ####1.6.用法
 
-
-
-<pre><code class='text'>
-
-</code></pre>
-
-
-
-所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
-
-
+{% highlight html %}
+{% highlight language %}  
+   your code goes here  
+{% endhighlight %}
+{% endhighlight %}
 
 或者
 <pre><code>
@@ -57,6 +50,8 @@ category: Jekyll
    your code goes here  
 ```
 </code></pre>
+
+所有的language列表可参见[这里](http://pygments.org/docs/lexers/)
 
 
 用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
