@@ -22,7 +22,7 @@ category: Jekyll
 
 * `pip install Pygments`
 * [点击下载](https://pypi.python.org/pypi/Pygments)安装包
-* `easy_install Pygments-1.6-py2.7.egg`
+`easy_install Pygments-1.6-py2.7.egg`
 
 ####1.4.生成pygments.css
 
