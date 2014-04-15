@@ -46,6 +46,14 @@ category: Jekyll
 {% endhighlight %}
 </code></pre>
 
+或者
+<pre><code>
+```language
+   your code goes here  
+```
+</code></pre>
+
+
 用实际使用的lexers替换掉language即可，所有的lexers列表可参见[这里](http://pygments.org/docs/lexers/)
 
 ###1.7.官方资源
