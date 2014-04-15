@@ -38,11 +38,11 @@ category: Jekyll
 
 ####1.6.用法
 
-{% highlight html %}
-{% highlight language %}  
+<pre><code>
+highlight language 
    your code goes here  
-{% endhighlight %}
-{% endhighlight %}
+endhighlight 
+</code></pre>
 
 或者
 <pre><code>
