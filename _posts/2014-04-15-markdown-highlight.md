@@ -11,16 +11,19 @@ category: Jekyll
 ###1.1.优点
 
 *支持超过100种以上的代码高亮
+
 *不用担心代码格式化的问题，直接拷贝即可
 
 ###1.2.缺点
 
 *安装方式要难于highlight.js，前提要求已安装python
+
 *有新的版本，需要手动重新生成pygments.css
 
 ###1.3.安装方式
 
 1.`pip install Pygments`
+
 2.[点击下载](https://pypi.python.org/pypi/Pygments)安装包，`easy_install Pygments-1.6-py2.7.egg`
 
 ###1.4.生成pygments.css
@@ -30,7 +33,9 @@ category: Jekyll
 ###1.5.引入pygments.css
 
 `<link rel="stylesheet" href="/pygments.css">`
+
 设置_config.yml中pygments=true
+
 `pygments: true`
 
 ###1.6.用法
@@ -46,7 +51,9 @@ category: Jekyll
 ###1.7.官方资源
 
 *[Pygments on github](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)
+
 *[Pygments homepage](http://pygments.org/)
+
 *[Supported languages list](http://pygments.org/languages/)
 
 ##2.Highlight.js
@@ -54,11 +61,13 @@ category: Jekyll
 ###2.1.优点
 
 *容易使用
+
 *方便升级
 
 ###2.2.缺点
 
 *代码高亮风格不如pygments友好，目前新版本已经漂亮很多了
+
 *需要自己组织代码格式
 
 ###2.3.引入highlight.js
